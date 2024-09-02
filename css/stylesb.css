@@ -1,0 +1,39 @@
+div { text-align: center; } 
+
+ul { display: Grid; text-align: center; }
+
+    .container{
+    width: 600px;
+    display: grid;
+    border: 5px solid black;
+    padding: 6px 10px;
+    
+  }
+  
+  .box{
+    border: 30px solid black;
+  }
+  
+  .red{
+    background-color: red;
+  }
+  .black{
+    background-color: black;
+  }
+  ul {
+    list-style: none;
+  }
+  .shadowbox1 {
+    width: em;
+    border: 1px solid #333;
+    box-shadow: 8px 8px 5px #444;
+    padding: 6px 10px;
+    background-image: linear-gradient(180deg, #ddce25c5, #c7c414 40%, #080101);
+  }
+  .shadowbox2 {
+    width: auto;
+    border: 1px solid #333;
+    box-shadow: 8px 8px 5px #444;
+    padding: 6px 10px;
+    background-image: linear-gradient(180deg, #ddce25c5, #c7c414 40%, #080101);
+  }
